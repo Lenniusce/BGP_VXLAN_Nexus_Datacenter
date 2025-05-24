@@ -1,0 +1,17 @@
+IP PIM RP 10.2.2.2
+
+SPINE
+Loopback0 Pattern: 10.255.0.1, 2, 3, 4
+Loopback1 Pattern: 10.255.1.123
+
+BDR
+Loopback0 Pattern: 10.255.1.1, 2, 3, 4
+Loopback1 Pattern: 10.255.255.1
+
+Leaf
+Loopback0 Pattern: 10.255.1.11
+Loopback1 Pattern: 10.255.255.11
+
+
+
+router-id = loopback0 address
